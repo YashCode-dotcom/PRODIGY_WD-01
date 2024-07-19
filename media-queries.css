@@ -1,0 +1,133 @@
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    .header-left, .header-right {
+        max-width: 50vw;
+    }
+
+    .features-card {
+        max-width: 45%;
+    }
+
+    .examples-card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-left, .header-right {
+        max-width: 100%;
+    }
+
+    .features-card {
+        max-width: 100%;
+    }
+
+    .examples-card {
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column;
+    }
+
+    .big-feature-container {
+        flex-direction: column;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .features-area {
+        flex-direction: column;
+    }
+
+    .header-left h1 {
+        font-size: 2rem;
+    }
+
+    .header-left p {
+        font-size: 1rem;
+    }
+
+    .header-right img {
+        max-width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .cta-section-container {
+        padding: 40px var(--padding-inline-section);
+    }
+}
+
+@media (max-width: 576px) {
+    .top-banner {
+        padding: 10px;
+    }
+
+    .banner-text {
+        font-size: 0.875rem;
+        padding: 10px;
+    }
+
+    .company-logo img {
+        width: 150px;
+    }
+
+    .logos {
+        gap: 10px;
+    }
+
+    .logo {
+        height: 36px;
+    }
+
+    .features-heading-text, .examples-heading-text {
+        font-size: 1.5rem;
+    }
+
+    .features-card h3, .examples-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .features-card p {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .cta-section h2 {
+        font-size: 1.75rem;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .class-card {
+        max-width: 100%;
+    }
+
+    .classes-area {
+        flex-direction: column;
+        align-items: center;
+    }
+}
